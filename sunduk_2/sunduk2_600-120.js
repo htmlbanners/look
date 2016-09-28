@@ -10,17 +10,17 @@ lib.properties = {
 	color: "#660099",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/backgr.jpg?1474925706823", id:"backgr"},
-		{src:"images/chest_close.png?1474925706823", id:"chest_close"},
-		{src:"images/chest_open.png?1474925706823", id:"chest_open"},
-		{src:"images/coin1.png?1474925706823", id:"coin1"},
-		{src:"images/coin2.png?1474925706823", id:"coin2"},
-		{src:"images/coin3.png?1474925706823", id:"coin3"},
-		{src:"images/dia1.png?1474925706823", id:"dia1"},
-		{src:"images/dia2.png?1474925706823", id:"dia2"},
-		{src:"images/nit.png?1474925706823", id:"nit"},
-		{src:"images/text1.png?1474925706823", id:"text1"},
-		{src:"images/text2.png?1474925706823", id:"text2"}
+		{src:"images/backgr.jpg?1475043431658", id:"backgr"},
+		{src:"images/chest_close.png?1475043431658", id:"chest_close"},
+		{src:"images/chest_open.png?1475043431658", id:"chest_open"},
+		{src:"images/coin1.png?1475043431658", id:"coin1"},
+		{src:"images/coin2.png?1475043431658", id:"coin2"},
+		{src:"images/coin3.png?1475043431658", id:"coin3"},
+		{src:"images/dia1.png?1475043431658", id:"dia1"},
+		{src:"images/dia2.png?1475043431658", id:"dia2"},
+		{src:"images/nit.png?1475043431658", id:"nit"},
+		{src:"images/text1.png?1475043431658", id:"text1"},
+		{src:"images/text2.png?1475043431658", id:"text2"}
 	]
 };
 
@@ -514,14 +514,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,81,83);
 	this.instance_13 = new lib.Анимация10("synched",0);
 	this.instance_13.setTransform(186,65.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},69).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_7}]},2).to({state:[{t:this.instance_8}]},2).to({state:[{t:this.instance_9}]},2).to({state:[{t:this.instance_10}]},2).to({state:[{t:this.instance_11}]},3).to({state:[{t:this.instance_12}]},2).to({state:[{t:this.instance_13,p:{x:186,y:65.5}}]},2).to({state:[{t:this.instance_13,p:{x:185,y:66.5}}]},2).to({state:[{t:this.instance_7}]},2).wait(161));
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(69).to({_off:false},0).wait(1).to({x:114},0).wait(2).to({x:109},0).to({_off:true},2).wait(15).to({_off:false,x:106,y:-3},0).wait(161));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},69).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_7}]},2).to({state:[{t:this.instance_8}]},2).to({state:[{t:this.instance_9}]},2).to({state:[{t:this.instance_10}]},2).to({state:[{t:this.instance_11}]},3).to({state:[{t:this.instance_12}]},2).to({state:[{t:this.instance_13,p:{x:186,y:65.5}}]},2).to({state:[{t:this.instance_13,p:{x:185,y:66.5}}]},2).to({state:[{t:this.instance_7}]},2).to({state:[]},60).wait(101));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(69).to({_off:false},0).wait(1).to({x:114},0).wait(2).to({x:109},0).to({_off:true},2).wait(15).to({_off:false,x:106,y:-3},0).to({_off:true},60).wait(101));
 
 	// chest_close.png
 	this.instance_14 = new lib.chest_close();
 	this.instance_14.setTransform(114,25);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(68).to({_off:true},1).wait(181));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(68).to({_off:true},1).wait(80).to({_off:false},0).wait(101));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(114,25,121,115);
@@ -569,14 +569,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,232,44);
 	this.instance_1.setTransform(-83.4,16.6,1,1,0,0,0,40.5,41.5);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(34).to({_off:false},0).to({rotation:360,x:427.5},34,cjs.Ease.get(-1)).to({regX:40.6,scaleX:0.78,x:436.7},2).to({scaleX:1.05,rotation:0,x:355.6,y:-79.4},3,cjs.Ease.get(1)).to({_off:true},1).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(34).to({_off:false},0).to({rotation:360,x:427.5},34,cjs.Ease.get(-1)).to({regX:40.6,scaleX:0.78,x:436.7},2).to({scaleX:1.05,rotation:0,x:475.6,y:-26.4},3,cjs.Ease.get(1)).to({scaleX:0.59,scaleY:0.57,x:505.7,y:23.6},3,cjs.Ease.get(-1)).to({_off:true},1).wait(173));
 
 	// Слой 5 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
 	var mask_graphics_0 = new cjs.Graphics().p("A+dDqIAAnUMA86AAAIAAHUg");
 	var mask_graphics_48 = new cjs.Graphics().p("A+dDqIAAnUMA86AAAIAAHUg");
-	var mask_graphics_49 = new cjs.Graphics().p("Ac7DqIAAnUIAAHUMg53AAAIAAnUMA53AAAIACAAIAAHUg");
+	var mask_graphics_49 = new cjs.Graphics().p("Ac7DqIAAnUIACAAIAAHUgAc7DqMg53AAAIAAnUMA53AAAIAAHUg");
 	var mask_graphics_50 = new cjs.Graphics().p("A7cDqIAAnUMA20AAAIAAHUgAbcjqIABAAIgBAXg");
 	var mask_graphics_51 = new cjs.Graphics().p("A57DqIAAnUMAzxAAAIAAHUgAZ8jqIAAAAIAAAXg");
 	var mask_graphics_52 = new cjs.Graphics().p("A4aDqIAAnUMAwtAAAIAAHUgAYajqIABAAIAAAsg");
