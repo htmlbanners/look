@@ -1,6 +1,7 @@
 (function (lib, img, cjs, ss) {
 
 var p; // shortcut to reference prototypes
+lib.webFontTxtFilters = {}; 
 
 // library properties:
 lib.properties = {
@@ -9,10 +10,11 @@ lib.properties = {
 	fps: 24,
 	color: "#DC1E16",
 	opacity: 1.00,
+	webfonts: {},
 	manifest: [
-		{src:"images/back.jpg?1503864594714", id:"back"},
-		{src:"images/bird.png?1503864594714", id:"bird"},
-		{src:"images/logoG.png?1503864594714", id:"logoG"}
+		{src:"images/back.jpg", id:"back"},
+		{src:"images/bird.png", id:"bird"},
+		{src:"images/logoG.png", id:"logoG"}
 	]
 };
 
@@ -21,6 +23,13 @@ lib.properties = {
 lib.ssMetadata = [];
 
 
+lib.webfontAvailable = function(family) { 
+	lib.properties.webfonts[family] = true;
+	var txtFilters = lib.webFontTxtFilters && lib.webFontTxtFilters[family] || [];
+	for(var f = 0; f < txtFilters.length; ++f) {
+		txtFilters[f].updateCache();
+	}
+};
 // symbols:
 
 
@@ -2864,7 +2873,7 @@ p.nominalBounds = new cjs.Rectangle(-178,-85,172.5,57.5);
 
 	// Символ 6
 	this.instance_6 = new lib.Символ6();
-	this.instance_6.setTransform(49,28,0.726,0.726,0,0,0,67.5,38.5);
+	this.instance_6.setTransform(82.2,13.5,0.826,0.826,0,0,0,67.5,38.5);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
@@ -2872,29 +2881,29 @@ p.nominalBounds = new cjs.Rectangle(-178,-85,172.5,57.5);
 
 	// Символ 16
 	this.instance_7 = new lib.Символ16();
-	this.instance_7.setTransform(90,153.5,1,1,0,0,0,70,17.4);
+	this.instance_7.setTransform(128.8,156.4,1.138,1.138,0,0,0,70,17.5);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(19).to({_off:false},0).to({x:100,alpha:1},19,cjs.Ease.get(1)).wait(70).to({alpha:0},14).wait(528));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(19).to({_off:false},0).to({x:140.2,alpha:1},19,cjs.Ease.get(1)).wait(70).to({alpha:0},14).wait(528));
 
 	// Символ 15
 	this.instance_8 = new lib.Символ15();
-	this.instance_8.setTransform(79.1,120.6,1,1,0,0,0,59.1,17.4);
+	this.instance_8.setTransform(116.4,118.9,1.138,1.138,0,0,0,59.1,17.4);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(9).to({_off:false},0).to({x:89.1,alpha:1},19,cjs.Ease.get(1)).wait(80).to({alpha:0},14).wait(528));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(9).to({_off:false},0).to({x:127.8,alpha:1},19,cjs.Ease.get(1)).wait(80).to({alpha:0},14).wait(528));
 
 	// Символ 14
 	this.instance_9 = new lib.Символ14();
-	this.instance_9.setTransform(66.8,87.7,1,1,0,0,0,46.8,17.4);
+	this.instance_9.setTransform(102.4,81.6,1.138,1.138,0,0,0,46.8,17.5);
 	this.instance_9.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({x:76.8,alpha:1},19,cjs.Ease.get(1)).wait(89).to({alpha:0},14).wait(528));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({x:113.8,alpha:1},19,cjs.Ease.get(1)).wait(89).to({alpha:0},14).wait(528));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(17,70.1,91.2,34.2);
+p.nominalBounds = new cjs.Rectangle(45.8,61.4,103.8,38.9);
 
 
 (lib.Символ3 = function(mode,startPosition,loop) {
